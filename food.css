@@ -71,6 +71,7 @@
     object-fit: cover;
     position: relative;
     opacity: 0.5;
+    border-radius: 0 0 0 100px;
     
 }
 .welcometxt{
@@ -79,7 +80,7 @@
 
 }
 .foodorder{
-    height: 100px;
+    height: 80px;
     position: absolute;
     top: 40%;
     margin: 0 auto;
@@ -94,6 +95,7 @@
 }
 .reldiv{
     position: relative;
+    margin-bottom: 15px;
 }
 .txthead2{
     display: flex;
@@ -123,15 +125,76 @@
 }
 .priceimg, .specialimg{
     width: 200px;
-    height: 80px;
+    height: 100%;
     object-fit: cover;
     
 }
+.featuredprofuct{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #111111;
+    border-radius: 15px;
+}
+.order1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    height: 80px;
+}
+.order1 div{
+    position: absolute;
+    /* bottom: 0; */
+    bottom: 0;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    display: flex;
+    /* justify-content: center; */
+    color: #ffffff;
+
+}
+.order1 div:hover{
+    background-color: #FFFF00;
+    border-radius: 7px;
+    color: #111111;
+    
+    
+    
+}
+.head3end{
+    margin-bottom: 200px;
+}
+.header3{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
 .header3img{
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 1300px ;
+    margin: 0 auto;
+    
 }
-.featuredprofuct{
-    width: 200px;
-    height: 150px;
+.header3img div div{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    color: #ffffff;
+    
+   
+}
+.header3img div div:hover{
+    background-color: #FFFF00;
+    border-radius: 7px;
+    color: #111111;
+
+}
+.img3head{
+    display: flex;
+    justify-content: center;
 }
